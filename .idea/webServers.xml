@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="158c33ba-ecc7-4b41-aa5d-c6ceb2dc5bea" name="Local" url="http://192.168.99.117">
+        <fileTransfer host="192.168.99.117" port="22" rootFolder="/var/www/html/AngularTurnJs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

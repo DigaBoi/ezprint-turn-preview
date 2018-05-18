@@ -1,0 +1,21 @@
+<div class="flipbook-viewport">
+    <div class="container">
+         <div id="book" class="flipbook">
+         </div>
+    </div>
+    <div id="alert">
+    </div>
+     <div>
+          <img class="button"
+               onmouseover="this.src='http://192.168.99.117/AngularTurnJs/images/left_arrow_hover.png';"
+               onmouseout="this.src='http://192.168.99.117/AngularTurnJs/images/left_arrow.png';"
+               src="http://192.168.99.117/AngularTurnJs/images/left_arrow.png"
+               ng-click="flipButton('previous')">
+          <img class="button"
+               onmouseover="this.src='http://192.168.99.117/AngularTurnJs/images/right_arrow_hover.png';"
+               onmouseout="this.src='http://192.168.99.117/AngularTurnJs/images/right_arrow.png';"
+               src="http://192.168.99.117/AngularTurnJs/images/right_arrow.png"
+               ng-click="flipButton('next')">
+     </div>
+     <input type="range" min="0" step="2" id="navigation" ng-model="nav" ng-change="flipTo(nav)">
+ </div>
